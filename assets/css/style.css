@@ -408,9 +408,9 @@ section {
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
-  left: 0;
   bottom: 0;
-  width: 300px;
+  left: 300px;                 
+  width: calc(100% - 300px);
   z-index: 9999;
   background: #040b14;
 }
@@ -418,8 +418,8 @@ section {
 @media (max-width: 1199px) {
   #footer {
     position: static;
-    width: auto;
-    padding: 15px 20px;
+    left: 0;
+    width: 100%;
   }
 }
 
