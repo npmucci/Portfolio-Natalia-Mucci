@@ -363,6 +363,23 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; 
+  flex-grow: 1;            
+}
+
+.card-body a.btn {
+  margin-top: auto;    
+  align-self: center;  
+}
+
 
 .projects-section .btn {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -404,15 +421,14 @@ section {
 }
 
 #footer {
-  padding: 15px;
+  justify-content: center; 
   color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  bottom: 0;
-  left: 300px;                 
-  width: calc(100% - 300px);
-  z-index: 9999;
+  font-size: 13px;
   background: #040b14;
+  height: 20px;         
+  margin-top: 40px;  
+  margin-left: 300px;   
+  width: calc(100% - 300px);
 }
 
 @media (max-width: 1199px) {
