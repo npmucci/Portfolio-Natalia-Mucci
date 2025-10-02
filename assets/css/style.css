@@ -421,11 +421,13 @@ section {
 }
 
 #footer {
+  display: flex;              
   justify-content: center; 
+  align-items: center;        
   color: #f4f6fd;
   font-size: 13px;
   background: #040b14;
-  height: 20px;         
+  height: 40px;              
   margin-top: 40px;  
   margin-left: 300px;   
   width: calc(100% - 300px);
@@ -433,9 +435,7 @@ section {
 
 @media (max-width: 1199px) {
   #footer {
-    position: static;
-    left: 0;
+    margin-left: 0;           
     width: 100%;
   }
 }
-
